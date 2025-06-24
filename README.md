@@ -21,8 +21,6 @@
 |---|---|
 | ![Login](Screenshots/login.png) | ![Home](Screenshots/homepage.png) |
 
-> Ganti link-gambar-... dengan link GitHub image atau path lokal di repo.
-
 ## 🚀 Cara Menjalankan
 1. Clone repo ini:
    
