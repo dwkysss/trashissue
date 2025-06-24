@@ -6,7 +6,7 @@
 - ✅ Login & Register
 - 🌍 Lokasi kampanye kebersihan
 - 📅 Daftar kegiatan bersih-bersih
-- 📸 Scan sampah dengan CameraX
+- 📸 Scan lokasi dengan CameraX
 - 🗂️ Kategori kegiatan: Sampah, Lingkungan, Galang Dana, dll
 
 ## 🛠️ Teknologi yang Digunakan
@@ -15,7 +15,16 @@
 - SQLite (local database)
 - CameraX (Jetpack)
 
+## 📸 Screenshot Aplikasi
+
+| Login | Register | Home |
+|---|---|---|
+| ![Login](Screenshots/login.png) | ![Home](Screenshots/homepage.png) |
+
+> Ganti link-gambar-... dengan link GitHub image atau path lokal di repo.
+
 ## 🚀 Cara Menjalankan
 1. Clone repo ini:
-   ```bash
+   
+bash
    git clone https://github.com/dwkysss/trashissue.git
