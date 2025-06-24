@@ -6,7 +6,7 @@
 - ✅ Login & Register
 - 🌍 Lokasi kampanye kebersihan
 - 📅 Daftar kegiatan bersih-bersih
-- 📸 Scan lokasi dengan CameraX
+- 📸 Scan sampah dengan CameraX
 - 🗂️ Kategori kegiatan: Sampah, Lingkungan, Galang Dana, dll
 
 ## 🛠️ Teknologi yang Digunakan
