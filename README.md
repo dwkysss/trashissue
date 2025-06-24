@@ -23,6 +23,5 @@
 
 ## 🚀 Cara Menjalankan
 1. Clone repo ini:
-   
-bash
+   ```bash
    git clone https://github.com/dwkysss/trashissue.git
