@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#1A8C6A</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_d9">#FFD9D9D9</color>
+    <color name="colorIJO_ORI">#FF4FAF5A</color>
+    <color name="colorPrimaryDeliveryApp">#FF4FAF5A</color>
+    <color name="green_background_10">#1A4FAF5A</color>
+    <color name="neutral_10">#FFF5F5F5</color>
+    <color name="neutral_20">#FFEBEBEB</color>
+    <color name="neutral_40">#FFD1D1D1</color>
+    <color name="neutral_50">#FFBDBDBD</color>
+    <color name="neutral_60">#FF9E9E9E</color>
+    <color name="neutral_70">#FF757575</color>
+    <color name="neutral_90">#FF424242</color>
+    <color name="neutral_100">#FF212121</color>
+    <color name="red_notification">#FFC01212</color>
+    <color name="yellow_500">#FFFFEB3B</color>
+    <color name="black_10">#1A101010</color>
+    <color name="color_ijo_ori">#FF4FAF5A</color>
+    <color name="color_abu_good">#FF607D8B</color>
+    <color name="status_bar_color">#FFE8E6E6</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#4CAF50</color>
+
+    <color name="green_500">#4CAF50</color>
+    <color name="gray_500">#888888</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray">#666666</color>
+
+    <color name="overlay_dark">#80000000</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+</resources>

@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M0,20 Q206, -30 412,20 L412,84 L0,84 Z" />
+</shape>

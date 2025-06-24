@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
+            android:layout_marginTop="24dp"
+            android:contentDescription="Logo" />
+
+        <!-- Text Logo -->
+        <ImageView
+            android:id="@+id/textLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/judul"
+            android:contentDescription="Text Logo" />
+
+        <!-- Form Container -->
+        <LinearLayout
+            android:id="@+id/formContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textLogo"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:background="@drawable/form_background"
+            android:padding="24dp"
+            android:elevation="4dp">
+
+            <EditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:backgroundTint="@color/green"
+                android:paddingVertical="10dp"
+                android:layout_marginBottom="16dp" />
+
+            <EditText
+                android:id="@+id/passwordInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:backgroundTint="@color/green"
+                android:paddingVertical="10dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/forgotText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textColor="@color/green"
+                android:textSize="12sp"
+                android:layout_marginBottom="16dp" />
+            <TextView
+                android:id="@+id/registerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Belum punya akun? Daftar di sini"
+                android:textColor="@color/green"
+                android:textSize="14sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                />
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIGN IN"
+                android:backgroundTint="@color/green"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AktivitasActivity">
+
+    <include
+        android:id="@+id/status_bar"
+        layout="@layout/type_default"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/header_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/status_bar">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/header_background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="46dp"
+            android:text="activities"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/header_layout"
+        app:layout_constraintTop_toBottomOf="@+id/header_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="48dp">
+
+            <include layout="@layout/list_item_aktivitas_abu" />
+
+            <include
+                layout="@layout/list_item_aktivitas_abu"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:layout_marginTop="20dp" />
+
+            <include
+                layout="@layout/list_item_aktivitas_hijau"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:layout_marginTop="20dp" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_state_closed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                app:backgroundTint="@color/color_ijo_ori"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_add_custom"
+                app:tint="@color/white"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:background="@drawable/bottom_nav_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/bottom_nav_background">
+
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <ImageView android:layout_width="18dp" android:layout_height="19dp" android:src="@drawable/ic_home" app:tint="@color/colorPrimaryDeliveryApp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="home" android:textColor="@color/colorPrimaryDeliveryApp" android:textSize="12sp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <ImageView android:layout_width="19dp" android:layout_height="19dp" android:src="@drawable/ic_group" app:tint="@color/neutral_60" android:id="@+id/logoImageView"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="activities" android:textColor="@color/neutral_60" android:textSize="12sp"/>
+            </LinearLayout>
+            <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <ImageView android:layout_width="19dp" android:layout_height="19dp" android:src="@drawable/ic_donate" app:tint="@color/neutral_60"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="donate" android:textColor="@color/neutral_60" android:textSize="12sp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+                <ImageView android:layout_width="18dp" android:layout_height="19dp" android:src="@drawable/ic_profile" app:tint="@color/neutral_60"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="profile" android:textColor="@color/neutral_60" android:textSize="12sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera"
+            app:backgroundTint="@color/colorPrimaryDeliveryApp"
+            app:tint="@color/white"
+            android:layout_gravity="center_horizontal|top"
+            app:maxImageSize="32dp"
+            android:contentDescription="camera_button" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="84dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bottom_nav_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_nav_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <LinearLayout style="@style/BottomNavItem">
+            <ImageView style="@style/BottomNavIcon" android:src="@drawable/ic_home" app:tint="@color/color_ijo_ori"/>
+            <TextView style="@style/BottomNavText" android:text="@string/home" android:textColor="@color/color_ijo_ori"/>
+        </LinearLayout>
+        <LinearLayout style="@style/BottomNavItem">
+            <ImageView style="@style/BottomNavIcon" android:src="@drawable/ic_group" />
+            <TextView style="@style/BottomNavText" android:text="@string/activities" />
+        </LinearLayout>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <LinearLayout style="@style/BottomNavItem">
+            <ImageView style="@style/BottomNavIcon" android:src="@drawable/ic_donate" />
+            <TextView style="@style/BottomNavText" android:text="@string/donate" />
+        </LinearLayout>
+        <LinearLayout style="@style/BottomNavItem">
+            <ImageView style="@style/BottomNavIcon" android:src="@drawable/ic_profile"/>
+            <TextView style="@style/BottomNavText" android:text="@string/profile"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_camera"
+        app:backgroundTint="@color/colorPrimaryDeliveryApp"
+        app:tint="@color/white"
+        android:layout_gravity="center_horizontal|top"
+        app:maxImageSize="32dp"
+        android:contentDescription="@string/camera_button" />
+</FrameLayout>

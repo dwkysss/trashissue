@@ -1,0 +1,34 @@
+<resources>
+<string name="app_name">My App</string>
+<string name="lokasi_saat_ini">Lokasi Saat Ini</string>
+<string name="alamat_jalan">Jl. Universitas Jenderal A..</string>
+<string name="cari_bantuan">Cari yang ingin kamu bantu</string>
+<string name="banner_title">Cimahi butuh bantuan kamu dalam menjadi kota ramah lingkungan!</string>
+<string name="gabung_sekarang">Gabung Sekarang</string>
+<string name="kategori">Kategori</string>
+<string name="see_all">See all</string>
+<string name="sampah">Sampah</string>
+<string name="lingkungan">Lingkungan</string>
+<string name="demo">Demo</string>
+<string name="galang_dana">Galang Dana</string>
+<string name="kegiatan_favorit">Kegiatan Favorit</string>
+<string name="kabar_sampah">Kabar Sampah</string>
+<string name="favorite_title">Jembatan Lautan Sa...</string>
+<string name="home">Home</string>
+<string name="activities">Activities</string>
+<string name="donate">Donate</string>
+<string name="profile">Profile</string>
+<string name="camera_button">Camera</string>
+    <string name="todobottomright">TODOBOTTOMRIGHT</string>
+    <string name="todobottomleft">TODOBOTTOMLEFT</string>
+    <string name="todocornerleft">TODOCORNERLEFT</string>
+    <string name="todocornertopleft">TODOCORNERTOPLEFT</string>
+    <string name="todobuttonleft">TODOBUTTONLEFT</string>
+    <string name="todobtnflash">TODOBTNFLASH</string>
+    <string name="todobtnback">TODOBTNBACK</string>
+    <string name="todoicphoto">TODOICPHOTO</string>
+    <string name="gallery">Gallery</string>
+    <string name="todobtncapture">TODOBTNCAPTURE</string>
+    <string name="todoichistory">TODOICHISTORY</string>
+    <string name="history">History</string>
+</resources>
